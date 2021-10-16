@@ -1,0 +1,42 @@
+.write {
+  padding-top: 50px;
+  &__image {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  &__form {
+    position: relative;
+  }
+  &__form-group {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  &__input {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    &:focus {
+      outline: none;
+    }
+  }
+  &__text {
+    font-size: 20px;
+  }
+  &__submit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #fff;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+}
